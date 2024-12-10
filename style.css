@@ -1,0 +1,456 @@
+#sehife_1{
+    background: url(bg.jpg)center/cover;
+    height:100vh;
+}
+.container{
+    width: 80vw;
+    margin:auto;
+}
+.basliq{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+.basliq ul{
+    display: flex;
+    width:450px;
+    justify-content: space-between;
+}
+.fa-magnifying-glass{
+    margin-left: 20px;
+    font-size:14px;
+}
+.basliq a,i{
+    font: bold 13px "Roboto",sans-serif;
+    color:#002347;
+    transition: 0.5s;
+    text-transform:capitalize;
+}
+.basliq a:hover,.basliq i:hover{
+    color:#fdc632;
+}
+.basligin_ortasi{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:80vh;
+}
+.basligin_ortasi h2{
+    font:550 20px "Roboto", sans-serif;
+    color:#002347;
+    text-transform:uppercase;
+    margin: 0px 0px 16px;
+}
+.basligin_ortasi h1{
+    font:550 48px "Rubik", sans-serif;
+    color:#002347;
+    text-transform: uppercase;
+    margin: 24px 0px 48px;
+}
+.kecidler{
+    display:flex;
+    justify-content: center;
+}
+.kecidler a{
+    border-radius: 5px;
+    padding: 20px 48px;
+    text-transform:uppercase;
+    font:bold 13px "Roboto", sans-serifl;
+    transition: .4s;
+}
+.kecidler a[type="kecid-1"] {
+    background-color: #002347;
+    color: #fdc632;
+    margin-right: 8px;
+}
+.kecidler a[type="kecid-1"]:hover { 
+    background: transparent; 
+    border: 1px solid #002347; 
+    color: #002347; 
+}
+.kecidler a[type="kecid-2"] { 
+    background-color: #fdc632; 
+    color: #002347; 
+    margin-left: 8px; 
+}
+.kecidler a[type="kecid-2"]:hover { 
+    background-color: #002347; 
+    color: #fdc632; 
+}
+
+/*Sehife2 */
+#sehife-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#sehife-2 h2{
+    font: bold 36px "rubik", sans-serif;
+    color:#002347;
+    text-transform:capitalize;
+    margin: 0 0 16px;
+}
+#sehife-2 .yuxardaki-p{
+    font: 16px "Roboto", sans-serif;
+    color: #7b838a;
+    padding: 30px 0;
+}
+.kartlar{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.kartlar .kart1,.kartlar .kart2,.kartlar .kart3,.kartlar .kart4,.kartlar .kart5,.kartlar .kart6{
+    background-color:#f9f9ff;
+    margin: 0px 0px 30px;
+    padding: 40px 36px;
+    width:250px;
+    height:150px;
+    transition:0.5s;
+}
+.kartlar i{
+    font-size: 40px;
+    color: #002347;
+}
+.kartlar h4{
+    font: bold 20px "Rubik",sans-serif;
+    color: #002347;
+    margin:16px 0px 8px;
+}
+.kartlar p{
+    font: 16px "Roboto", sans-serif;
+    color:#7b838A;
+}
+.kartlar .kart1:hover,.kartlar .kart2:hover,.kartlar .kart3:hover,.kartlar .kart4:hover,.kartlar .kart5:hover,.kartlar .kart6:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+/* sehife 3 */
+
+
+/* sehife-4 */
+.registration{
+    background-color:#002347;
+    height: 90vh;
+}
+#sehife-4{
+    padding:50px 0;
+    display:flex;
+    justify-content:space-between;
+}
+.registration-melumat{
+    width:55%;
+}
+.registrain-basliq h1{
+    font:bold 40px "Roboto", sans-serif;
+    color: #fff;
+    margin-top: 50px;
+}
+.registrain-basliq>p{
+    font: 20px "Roboto", sans-serif;
+    color: #fff;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 25px;
+}
+.qiymetler{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px 0;
+}
+.qiymet1,.qiymet2,.qiymet3,.qiymet4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: #334f6c;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+.qiymetler p{
+    font:700 36px "Roboto", sans-serif;
+    color: #fff;
+    text-align:center;
+}
+.qiymetler span{
+    font:550 16px "Roboto", sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.registration-form{
+    background-color: #fff;
+    width: 250px;
+    max-height: 300px;
+    padding: 40px;
+    text-align: center;
+}
+.registration-form h3{
+    font:600 24px "Roboto", sans-serif;
+    color: #002347;
+    text-align: center;
+}
+.registration-form p{
+    font:400 16px "Roboto", sans-serif;
+    color: #7b838a;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+.name{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+.tel{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+.email{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+::placeholder{
+    font:600 16px "Roboto", sans-serif;
+    color: #b7aeac;
+    padding: 15px;
+}
+.submit{
+    font:600 14px "Roboto", sans-serif;
+    text-transform: uppercase;
+    background-color: #fdc632;
+    color: black;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+    padding:15px;
+    transition: 0.3s;
+}
+.submit:hover{
+    color: #fdc632;
+    background-color: #002347;
+}
+
+/* sehife */
+#sehife-5{
+    height:90vh;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.basliq5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.basliq5 h2{
+    font: bold 40px "Roboto", sans-serif;
+    color: #002347;
+    text-transform:capitalize;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.basliq5 p{
+    font:18px "Roboto", sans-serif;
+    color: #8d8986;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.kartlar5{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.kartlar5 .kart51,.kartlar5 .kart52,.kartlar5 .kart53,.kartlar5 .kart54{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;    
+    transition: 0.3s;
+}
+.kartlar5 .kart51:hover,.kartlar5 .kart52:hover,.kartlar5 .kart53:hover,.kartlar5 .kart54:hover{
+    box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
+}
+.kartlar5 .kartsek,.kart_melumat{
+    width:230px
+}
+.kartlar5 h3{
+    font: bold 20px "Roboto", sans-serif;
+    color: #002347;
+    text-align: center;
+    margin-top: 20px;
+}
+.kartlar5 .esas_ad{
+    font:500 16px "Roboto", sans-serif;
+    color: #8d8986;
+    text-align: center;
+    margin: 5px 0;
+}
+.kartlar5 .melumat{
+    font:500 16px "Roboto", sans-serif;
+    color: #8d8986;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin: 20px;
+}
+.link_icon i{
+    color: #cccccc;
+    font-size: 18px;
+    margin: 10px;
+}
+.link_icon{
+    text-align: center;
+}
+
+/* sehife 6 */
+#sehife-6-bg{
+    background-color:#fff;
+}
+.sehife-6{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    padding:130px 0;
+}
+.sehife-6-basliq{
+    margin-bottom:75px;
+}
+.sehife-6-basliq h2{
+    font: bold 36px / 30px "Rubik", sans-serif,bold;
+    text-transform: capitalize;
+    color:#002347;
+    text-align:center;
+    margin-bottom:20px;
+}
+.sehife-6-basliq p{
+    font: 16px "Roboto",sans-serif;
+    color:#7b838A;
+    text-align:center;
+}
+.sehife-6-kartlar{
+    display:flex;
+    gap:40px;
+}
+.sehife-6-kartlar .kart{
+    display:flex;
+    justify-content:center;
+    background-color:#eee;
+    padding:50px 55px;
+    transition: 0.5s;
+}
+.sehife-6-kartlar .kart:hover{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.sehife-6-kartlar .kart-kontent{
+    margin: 0 30px;
+}
+.sehife-6-kartlar .kart-kontent h3{
+    font: 500 20px "Rubik",sans-serif;
+    color: #002347;
+    text-transform:capitalize;
+    text-align:start;
+    margin-bottom: 10px;
+}
+.sehife-6-kartlar .kart-kontent p{
+    color:#7b838a;
+    font: 400 16px/ 25px "Roboto", sans-serif;
+    text-align:start;
+}
+footer {
+    background-color: #002347;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0;
+    flex-wrap: wrap;
+}
+
+footer ul{
+    font: 500 18px "Rubik", sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+}
+footer ul p{
+    margin-bottom: 35px;
+}
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer a{
+    font: 400 16px "Roboto", sans-serif;
+    text-transform: capitalize;
+    color: #7B838A;
+}
+.footer-qeyd{
+    font: 400 16px "Roboto", sans-serif;
+    color: #7B838A;    
+}
+footer input{
+    background-color: #334f6c;
+    width: 250px;
+    padding: 12px 10px 12px 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+footer input::placeholder{
+    text-transform: capitalize;
+}
+footer button{
+    background: #fdc632;
+    color: #002347;
+    padding: 10px 20px;
+    margin-left: -60px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    border: none;
+}
+.footer-asagi{
+    display: flex;
+    gap: 404px;
+    margin-top: 50px;
+}
+.bottom-yazi p{
+    color: #fff;
+    font: 400 16px "Roboto", sans-serif;
+    text-transform: capitalize;
+    line-height: 16px;
+}
+.footer-asagi .icons i{
+    font-size: 16px;
+    color: #ccc;
+    background-color: #334f6c;
+    padding: 12px;
+    transition: .4s;
+}
+
+.footer-asagi .icons i:hover{
+    color:#002347;
+    background-color: #fdc632;
+}
